@@ -27,3 +27,26 @@ O(V + E)
 O(V)
 
 Where V is the number of vertices and E is the number of edges.
+
+
+# Depth-First Search (DFS)
+
+## Pseudocode
+
+```text
+DFS(Graph, Node, Visited):
+    If Node is not in visited:
+        Add Node to visited
+        Print Node
+
+        For each Neighbor of Node:
+            DFS(Graph, Neighbor, Visited)
+```
+
+## Time Complexity
+O(V + E)
+
+## Space Complexity
+O(V)
+
+Where V is the number of vertices and E is the number of edges.
